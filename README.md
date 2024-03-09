@@ -4,7 +4,7 @@ Web application pentesting tools.
 
 ## Encoding
 
-- [upperBypass.py](../blob/main/upperBypass.py): tool that automates the encoding of characters as HTML, Unicode and URL entities for Uppercase filter evasion.
+[upperBypass.py](../blob/main/upperBypass.py): tool that automates the encoding of characters as HTML, Unicode and URL entities for Uppercase filter evasion.
 
 ### Usage
 
@@ -15,6 +15,8 @@ In cases where you choose NOT to encode the special characters as URL, the space
 ```
 python upperBypass.py
 ```
-
+**Space encoded as '+'**
 ![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/upperBypass1.png "space encoded as '+'")
+
+**Space encoded as '%3D'**
 ![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/upperBypass2.png "space encoded as '%3D'")
