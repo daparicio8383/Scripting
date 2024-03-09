@@ -4,7 +4,7 @@ Web application pentesting tools.
 
 ## Encoding
 
-[upperBypass.py](../blob/main/upperBypass.py): tool that automates the encoding of characters as HTML, Unicode and URL entities for Uppercase filter evasion.
+[upperBypass.py](../main/upperBypass.py): tool that automates the encoding of characters as HTML, Unicode and URL entities for Uppercase filter evasion.
 
 ### Usage
 
