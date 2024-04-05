@@ -24,3 +24,29 @@ python upperBypass.py
 ###### Space encoded as '%3D'
 
 ![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/upperBypass2.png "space encoded as '%3D'")
+
+
+## Brute force
+
+[jwt-secret-comparer.py](../main/jwt-secret-comparer.py): tool that compares a JWT token with others generated from signatures with different secrets, obtained by using lists. Currently only the **HS256** signature algorithm is supported, although this will be updated.
+
+### Usage
+
+The first step is to import the *tqdm* module.
+
+The file will then be edited to enter the path to the directory where the wordlists are stored.
+
+Finally, when running jwt-secret-comparer, you will be prompted for the JWT token from which you want to extract the secret.
+
+```
+python jwt-secret-comparer.py
+```
+
+###### Editing the path
+
+![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/jwt-secret-comparer1.png "Editing the path")
+
+###### Usage
+
+![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/jwt-secret-comparer2.png "Usage")
+
