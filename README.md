@@ -25,6 +25,7 @@ python upperBypass.py
 
 ![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/upperBypass2.png "space encoded as '%3D'")
 
+---
 
 ## Brute force
 
