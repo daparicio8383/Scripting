@@ -27,7 +27,7 @@ python upperBypass.py
 
 ---
 
-[HexToASCII_Ghidra.py](../main/HexToASCII_Ghidra.py): tool that takes a 4 byte Hexadecimal value, asks you if you want to rearrange bytes in order to change its endianess, and convert the resultant value into ASCII. To perform this conversion, a Bitwise NOT operator will be used. The tool was thought to replicate the deobfuscation function of an APK, which used this operator.
+[HexToASCII_4byte.py](../main/HexToASCII_4byte.py): tool that takes a 4 byte Hexadecimal value, asks you if you want to rearrange bytes in order to change its endianess, and convert the resultant value into ASCII. To perform this conversion, a Bitwise NOT operator will be used. The tool was thought to replicate the deobfuscation function of an APK, which used this operator.
 
 ### How Bitwise NOT works
 
