@@ -38,10 +38,12 @@ Consider you find this function:
 bbb(~Var1[i]);
 ``` 
 
+```
 Var1[i] = 0x93; Var1[i] = 10010011
 ~Var1[i] = 01101100; ~Var1[i] = 0x6c
+```
 
-###### Usage
+###### Usage with two 4 byte values provided, changing endianess.
 
 ![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/HexToASCII_Ghidra.png "Two 4 byte values provided, changing endianess")
 
