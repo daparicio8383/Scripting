@@ -1,6 +1,6 @@
 # Scripting
 
-Web application pentesting tools.
+Pentesting tools.
 
 ## Encoding
 
@@ -24,6 +24,27 @@ python upperBypass.py
 ###### Space encoded as '%3D'
 
 ![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/upperBypass2.png "space encoded as '%3D'")
+
+---
+
+[HexToASCII_Ghidra.py](../main/HexToASCII_Ghidra.py): tool that takes a 4 byte Hexadecimal value, asks you if you want to rearrange bytes in order to change its endianess, and convert the resultant value into ASCII. To perform this conversion, a Bitwise NOT operator will be used. The tool was thought to replicate the deobfuscation function of an APK, which used this operator.
+
+### How Bitwise NOT works
+
+Bitwise NOT will invert any value you provide, bit by bit. It uses the **tilde symbol (~)**.
+
+Consider you find this function:
+```
+bbb(~Var1[i]);
+``` 
+
+Var1[i] = 0x93; Var1[i] = 10010011
+~Var1[i] = 01101100; ~Var1[i] = 0x6c
+
+###### Usage
+
+![alt text](https://github.com/daparicio8383/Scripting/blob/main/Images/HexToASCII_Ghidra.png "Two 4 byte values provided, changing endianess")
+
 
 ---
 
